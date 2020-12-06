@@ -254,6 +254,9 @@ h4 {
 
 
 @media only screen and (min-width: 800px){
+	h3 {
+		font-size:3.5em;
+	}
 	#right {
 		grid-template-columns: 1fr 2fr; 
 		margin-top: 4vh;
@@ -302,6 +305,9 @@ h4 {
 	}
 }
 @media only screen and (min-width: 2000px) {
+	h3 {
+		font-size: 5em;
+	}
 	.top {
 		top: 80%;
 	}
