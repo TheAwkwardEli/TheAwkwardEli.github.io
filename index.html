@@ -3,65 +3,121 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Home</title>
+	<title>Gallery</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link href="https://sfonts.googleapis.com/css2?family=Roboto&amp;display=swap" rel="stylesheet">
+	<style>
+		@media only screen and (max-width: 799px){
+	.gabot{
+
+	grid-area: bot;
+}
+	.gatop {
+	grid-area: top;
+}
+	.double {
+		grid-template-areas: "top" "bot";
+	}
+	</style>
 	
         
 	
 </head>
 <body>
+	<div class="top">
+		<a href="#name"><img src="arrow.png"></a>
+	</div>
 	<div class="wrapper">
 		<nav>
 			<h1 id="name">Eli Hoyt</h1>
 			<ul>
-				<li><a href="index.html"><span>Home  </span></a></li>
+				<li><a href="index.html"><span>Portfolio </span> </a></li>
 				<li><a href="gallery.html">Gallery  </a></li>
 				<li><a href="resume.html">Resume  </a></li>
 				<li><a href="about.html">About </a></li>
 			</ul>
 		</nav>
 		
-		<div class="imagecontain">
-			<img src="headerimage.png" class="headerimage">
-
-			<h2>Desert Goats</h2>
-		</div>
+		
 		<div>
 
-		<div class="gridcontainer">
+		
 
 			<div class="main">
-				<h1>Interests</h1>
+				<h1>Gallery</h1>
 				<hr>
-				<div class="threeset">
-					<div class="imagecontain"><img src="DSC_0958.jpg"> <h3>Photography and Videography</h3><div class="textbox"><p>My interest in photography inspires all of my other work. My illustrations and animations mimic the camera work that comes from photographers and cinemetographers that I admire. These influences make all of my other work more dynamic and weighted.</p></div></div>
-					<div class="imagecontain"><img src="Looking.png"><h3>Illustration</h3><div class="textbox"><p>My interest in animals and biology inspires my illustrations. I appreciate the anatomy and behaviours of real life creatures, bringing them into my own creature and character design. My illustrations tend to include nature in some form. Be it actual plants and animals or the bits of random wear and tear in a cityscape.</p></div></div>
-					<div class="imagecontin"><div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/510113883" style="position:absolute;top:0;left:10%;width:80%;height:100%;" frameborder="0" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script><h3>Animation</h3><div class="textbox"><p>Animation has always fascinated me. These past couple years, I have focused more and more on learning the processes behind animation and practicing as much as possible. I admire the creativity and freedom of 2d animation, and I admire the consistency of 3d animation.</p></div></div>
+				<nav>
+			
+			<ul style="position: static;">
+				<li><a href="#animate">Animations | </a></li>
+				<li><a href="#photo">Game Design | </a></li>
+				<li><a href="#ill">Illustration </a></li>
+				
+			</ul>
+		</nav>
+				<h3 class="sections" id="animate">Animation</h3>
+				<hr>
+				<div class="double">
+					<div class="imagecontain gabot"><h3>Animation Reel Placeholder</h3><div class="textbox"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce interdum ullamcorper velit. Integer scelerisque lacus ut fermentum viverra. Aenean porta non nisi vel mattis. Aenean aliquam ligula urna, id ultrices ipsum aliquet at. Curabitur varius enim ac diam aliquet, a tempor ligula porttitor. Curabitur id arcu turpis. Maecenas sit amet rhoncus urna. Quisque luctus vel risus eu posuere. Vivamus facilisis sit amet urna vitae aliquet. Nulla at aliquet orci. Aenean commodo neque eget libero bibendum, sit amet vulputate augue molestie. Nunc ac mi sit amet quam sodales feugiat ac non lectus. Quisque dui libero, vulputate volutpat feugiat quis, laoreet non enim. </p></div></div>
+					<div class="imagecontain gatop"><div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/510113883" style="position:absolute;top:0;left:10%;width:80%;height:100%;" frameborder="0"  allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script></div>
+					
+				</div>
+				<div class="double">
+					
+					<div class="imagecontain gatop"><div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/518424584" style="position:absolute;top:0;left:10%;width:80%;height:100%;" frameborder="0"  allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script></div>
+					<div class="imagecontain gabot"><h3>Akiki PSA</h3><div class="textbox"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce interdum ullamcorper velit. Integer scelerisque lacus ut fermentum viverra. Aenean porta non nisi vel mattis. Aenean aliquam ligula urna, id ultrices ipsum aliquet at. Curabitur varius enim ac diam aliquet, a tempor ligula porttitor. Curabitur id arcu turpis. Maecenas sit amet rhoncus urna. Quisque luctus vel risus eu posuere. Vivamus facilisis sit amet urna vitae aliquet. Nulla at aliquet orci. Aenean commodo neque eget libero bibendum, sit amet vulputate augue molestie. Nunc ac mi sit amet quam sodales feugiat ac non lectus. Quisque dui libero, vulputate volutpat feugiat quis, laoreet non enim. </p></div></div>
+					
+				</div>
+				<div class="double">
+					<div class="imagecontain gabot"><h3>Wandersong Fan Animation</h3><div class="textbox"><p>This study in walkcycles had me focusing on creating a sense of character in two different character's style of walking. I additionally wanted to focus on giving a sense of three dimensionality on a very 2D style.</p></div></div>
+					<div class="imagecontain gatop"><div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/510113883" style="position:absolute;top:0;left:10%;width:80%;height:100%;" frameborder="0"  allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script></div>
+					
+				</div>
+				<h3 class="sections" id="photo">Game Design</h3>
+				<hr>
+				<div class="double">
+					
+					<div class="imagecontain gatop"><img src="Blacksmiths_background.jpg"></div>
+					<div class="imagecontain gabot"><h3>Blacksmith Scene</h3><div class="textbox"><p>Placeholder until my engines and platforms game is ready to show off. Integer scelerisque lacus ut fermentum viverra. Aenean porta non nisi vel mattis. Aenean aliquam ligula urna, id ultrices ipsum aliquet at. Curabitur varius enim ac diam aliquet, a tempor ligula porttitor. Curabitur id arcu turpis. Maecenas sit amet rhoncus urna. Quisque luctus vel risus eu posuere. Vivamus facilisis sit amet urna vitae aliquet. Nulla at aliquet orci. Aenean commodo neque eget libero bibendum, sit amet vulputate augue molestie. Nunc ac mi sit amet quam sodales feugiat ac non lectus. Quisque dui libero, vulputate volutpat feugiat quis, laoreet non enim. </p></div></div>
+					
+				</div>
+				<div class="double">
+					<div class="imagecontain gabot"><h3>Skeletal Crow</h3><div class="textbox"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce interdum ullamcorper velit. Integer scelerisque lacus ut fermentum viverra. Aenean porta non nisi vel mattis. Aenean aliquam ligula urna, id ultrices ipsum aliquet at. Curabitur varius enim ac diam aliquet, a tempor ligula porttitor. Curabitur id arcu turpis. Maecenas sit amet rhoncus urna. Quisque luctus vel risus eu posuere. Vivamus facilisis sit amet urna vitae aliquet. Nulla at aliquet orci. Aenean commodo neque eget libero bibendum, sit amet vulputate augue molestie. Nunc ac mi sit amet quam sodales feugiat ac non lectus. Quisque dui libero, vulputate volutpat feugiat quis, laoreet non enim. </p></div></div>
+					<div class="imagecontain gatop"><img src="evilcrow.png"></div>
+					
+				</div>
+				<div class="double">
+					
+					<div class="imagecontain gatop"><img src="Plant.png"></div>
+					<div class="imagecontain gabot"><h3>Crop Showcase</h3><div class="textbox"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce interdum ullamcorper velit. Integer scelerisque lacus ut fermentum viverra. Aenean porta non nisi vel mattis. Aenean aliquam ligula urna, id ultrices ipsum aliquet at. Curabitur varius enim ac diam aliquet, a tempor ligula porttitor. Curabitur id arcu turpis. Maecenas sit amet rhoncus urna. Quisque luctus vel risus eu posuere. Vivamus facilisis sit amet urna vitae aliquet. Nulla at aliquet orci. Aenean commodo neque eget libero bibendum, sit amet vulputate augue molestie. Nunc ac mi sit amet quam sodales feugiat ac non lectus. Quisque dui libero, vulputate volutpat feugiat quis, laoreet non enim. </p></div></div>
+					
+				</div>
+				<h3 class="sections" id="ill">Illustration</h3>
+				<hr>
+				<div class="double">
+					<div class="imagecontain gabot"><h3>Strawberry Centipede</h3><div class="textbox"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce interdum ullamcorper velit. Integer scelerisque lacus ut fermentum viverra. Aenean porta non nisi vel mattis. Aenean aliquam ligula urna, id ultrices ipsum aliquet at. Curabitur varius enim ac diam aliquet, a tempor ligula porttitor. Curabitur id arcu turpis. Maecenas sit amet rhoncus urna. Quisque luctus vel risus eu posuere. Vivamus facilisis sit amet urna vitae aliquet. Nulla at aliquet orci. Aenean commodo neque eget libero bibendum, sit amet vulputate augue molestie. Nunc ac mi sit amet quam sodales feugiat ac non lectus. Quisque dui libero, vulputate volutpat feugiat quis, laoreet non enim.</p></div></div>
+					<div class="imagecontain gatop"><img src="Strawberry.png"></div>
+					
+				</div>
+				<div class="double">
+					
+					<div class="imagecontain gatop"><img src="Looking.png"></div>
+					<div class="imagecontain gabot"><h3>Komodo Dragon</h3><div class="textbox"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce interdum ullamcorper velit. Integer scelerisque lacus ut fermentum viverra. Aenean porta non nisi vel mattis. Aenean aliquam ligula urna, id ultrices ipsum aliquet at. Curabitur varius enim ac diam aliquet, a tempor ligula porttitor. Curabitur id arcu turpis. Maecenas sit amet rhoncus urna. Quisque luctus vel risus eu posuere. Vivamus facilisis sit amet urna vitae aliquet. Nulla at aliquet orci. Aenean commodo neque eget libero bibendum, sit amet vulputate augue molestie. Nunc ac mi sit amet quam sodales feugiat ac non lectus. Quisque dui libero, vulputate volutpat feugiat quis, laoreet non enim.</p></div></div>
+					
+				</div>
+				<div class="double">
+					<div class="imagecontain gabot"><h3>Goats</h3><div class="textbox"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce interdum ullamcorper velit. Integer scelerisque lacus ut fermentum viverra. Aenean porta non nisi vel mattis. Aenean aliquam ligula urna, id ultrices ipsum aliquet at. Curabitur varius enim ac diam aliquet, a tempor ligula porttitor. Curabitur id arcu turpis. Maecenas sit amet rhoncus urna. Quisque luctus vel risus eu posuere. Vivamus facilisis sit amet urna vitae aliquet. Nulla at aliquet orci. Aenean commodo neque eget libero bibendum, sit amet vulputate augue molestie. Nunc ac mi sit amet quam sodales feugiat ac non lectus. Quisque dui libero, vulputate volutpat feugiat quis, laoreet non enim.</p></div></div>
+					<div class="imagecontain gatop"><img src="goats.png"></div>
+					
 				</div>
 			</div>
-			<div class="sidebar">
-				<h4><a href="http://www.linkedin.com/in/elijah-hoyt/" style="text-align: center;">Linkedin  </a></h1>
-				<div class="sidebarcontain">
-					<h3>Me</h3>
-					<div class="imagecontain">
-						<img src="DSC_0143.jpg">
-
-					</div>
-					<h3>My Dog</h3>
-					<div class="imagecontain">
-						<img src="akiki.jpg">
-
-					</div>
-
-				</div>
-							</div>
+			
 		</div>
 	</div>
 		
 
 
-	</div>
+
 		
 		
 </body>
