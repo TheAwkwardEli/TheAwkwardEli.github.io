@@ -67,7 +67,9 @@ img {
 	width: 100%;
 }
 .topbar {
+	
 	padding-top: 10%;
+	
 }
 .wrapper {
 	margin: 0 auto 0% auto;
@@ -83,12 +85,14 @@ img {
 	margin-top: 2vh;
 }
 #name {
+	margin-top: 2vh;
 	font-weight: 400;
 	font-family: Georgia, serif;
 	font-size: 8em;
-	display: inline;
+	
 	color: #283044;
-	margin-left: 5%;
+	margin-left: 10%;
+	text-align: left;
 }
 nav {
 	margin-bottom: 2vh;
@@ -351,6 +355,10 @@ h4 {
 	
   	grid-template-columns: 3fr 1fr;
   }
+  .topbar {
+	display: grid;
+	padding-top: 10%;
+	grid-template-columns: 1fr;
   .threeset {
   	grid-template-columns: 1fr 1fr 1fr;
   }
