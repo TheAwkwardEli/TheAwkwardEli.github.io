@@ -60,15 +60,20 @@ p {
 	font-family: Georgia, serif;
 }
 span {
-	color: #B38915;
+	color: #B86800;
 
 }
 img {
 	width: 100%;
 }
+.topbar {
+	padding-top: 10%;
+}
 .wrapper {
-	margin: 5% auto;
+	margin: 0 auto 0% auto;
 	width: 95%;
+	height:100%;
+	background-color: #EBF5EE;
 }
 .gridcontainer {
 	display: grid;
@@ -82,7 +87,8 @@ img {
 	font-family: Georgia, serif;
 	font-size: 8em;
 	display: inline;
-	color: #7A9CFF;
+	color: #283044;
+	margin-left: 5%;
 }
 nav {
 	margin-bottom: 2vh;
@@ -137,11 +143,11 @@ li {
 }
 a {
 	font-size: 4em;
-	color: #3252B3;
+	color: #78A1BB;
 	text-decoration: none;
 }
 a:hover {
-	color: #FFD361;
+	color: #588157;
 }
 .headerimage {
 	width: 100%;
@@ -154,6 +160,12 @@ a:hover {
 	margin: 1em;
 	text-indent: 2em;
 
+}
+#resumetext {
+	text-align: left;
+	
+	text-indent: 2em;
+	font-size: 3.5em;
 }
 .splitimage {
 	margin-top: 4vh;
@@ -217,14 +229,14 @@ a:hover {
 }
 h1 {
 	margin-top: 2vh;
-	color: #3252B3;
+	color: #283044;
 	text-align: center;
 	font-size: 8em;
 
 }
 hr {
 	width: 90%;
-	border: 1px dashed #B38A20;
+	border: 1px dashed #588157;
 	margin-bottom: 4vh;
 }
 h3 {
@@ -232,7 +244,7 @@ h3 {
 	font-weight: 550;
 	font-size: 5em;
 	text-align: center;
-	color: #B38A20;
+	color: #B86800;
 }
 h4 {
 	font-size: 4.5em;
@@ -252,7 +264,9 @@ h4 {
 .sections {
 	color: #3252B3;
 }
-
+.bottom {
+	padding-bottom: 5%;
+}
 
 @media only screen and (min-width: 800px){
 	h3 {
